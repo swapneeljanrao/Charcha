@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GroupChatActivity">
+
+    <include
+        android:id="@+id/group_chat_appBar"
+        layout="@layout/app_bar_layout">
+
+    </include>
+
+    <ScrollView
+        android:id="@+id/ScrollView_groupChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/groupChat_TypeMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/group_chat_appBar">
+
+        <TextView
+            android:id="@+id/groupChat_textDisplayMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/groupChat_TypeMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="write your message"
+        android:padding="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/groupChat_btnSend"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/groupChat_btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/send_message"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScrollView_groupChat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

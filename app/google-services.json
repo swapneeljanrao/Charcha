@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "324445903915",
+    "firebase_url": "https://chatapp-clone-1.firebaseio.com",
+    "project_id": "chatapp-clone-1",
+    "storage_bucket": "chatapp-clone-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324445903915:android:df76a313f4c4fcb600de6e",
+        "android_client_info": {
+          "package_name": "com.mrcoder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324445903915-m3t15qt3trjfk3uiutgei5d4q9mrjs4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrcoder",
+            "certificate_hash": "1cb6dd97f02182fd861b63769b0400886d9660a8"
+          }
+        },
+        {
+          "client_id": "324445903915-hp24n9hmui7bdakblo1ni7npf4kic47o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNQt9B_AQ1sOipNa-YH5V8ZGgrTZYTf6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324445903915-hp24n9hmui7bdakblo1ni7npf4kic47o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324445903915:android:f74eeef8bf0e3a0c00de6e",
+        "android_client_info": {
+          "package_name": "com.mrcoder.charcha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324445903915-hp24n9hmui7bdakblo1ni7npf4kic47o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNQt9B_AQ1sOipNa-YH5V8ZGgrTZYTf6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324445903915-hp24n9hmui7bdakblo1ni7npf4kic47o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
