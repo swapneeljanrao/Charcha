@@ -142,7 +142,7 @@ public class GroupChatActivity extends AppCompatActivity {
 
             Calendar Time = Calendar.getInstance();
             SimpleDateFormat simpleTimeFormat = new SimpleDateFormat("hh:mm:ss a");
-            currentTime = simpleTimeFormat.format(Time.getTime());
+            currentTime = simpleTimeFormat.format(Time.getTimeInMillis());
 
             HashMap<String, Object> groupMessageKey = new HashMap<>();
             groupNameReference.updateChildren(groupMessageKey);
